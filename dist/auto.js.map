@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/auto.js"],"names":[],"mappings":";;;AAEA,KAAA,CAAM,WAAA,EAAY","file":"auto.js","sourcesContent":["import { Pulse } from './core.js'\n\nPulse.initFromEnv()\n"]}
