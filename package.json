@@ -1,6 +1,6 @@
 {
   "name": "@704app/pulse",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Automatic error tracking SDK for Node.js and Browser",
   "license": "MIT",
   "author": "BJR <betho.junior@0704apps.com.br>",
