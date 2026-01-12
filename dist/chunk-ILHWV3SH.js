@@ -12,7 +12,7 @@ var _endpoint, _app, _groupId, _initialized, _PulseCore_instances, send_fn, norm
 var PulseCore = class {
   constructor() {
     __privateAdd(this, _PulseCore_instances);
-    __privateAdd(this, _endpoint, "https://api-pulse.704app.com.br/logs");
+    __privateAdd(this, _endpoint, "https://injest-pulse.704app.com.br/logs");
     __privateAdd(this, _app);
     __privateAdd(this, _groupId);
     __privateAdd(this, _initialized, false);
@@ -248,5 +248,5 @@ interceptConsole_fn = function() {
 var Pulse = new PulseCore();
 
 export { Pulse };
-//# sourceMappingURL=chunk-ZYSBRMLA.js.map
-//# sourceMappingURL=chunk-ZYSBRMLA.js.map
+//# sourceMappingURL=chunk-ILHWV3SH.js.map
+//# sourceMappingURL=chunk-ILHWV3SH.js.map

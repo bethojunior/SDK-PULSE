@@ -1,5 +1,5 @@
 class PulseCore {
-  #endpoint = 'https://api-pulse.704app.com.br/logs'
+  #endpoint = 'https://injest-pulse.704app.com.br/logs'
   #app
   #groupId
   #initialized = false
