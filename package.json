@@ -4,27 +4,36 @@
   "description": "Automatic error tracking SDK for Node.js and Browser",
   "license": "MIT",
   "author": "BJR <betho.junior@0704apps.com.br>",
+
   "type": "module",
+
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./auto": {
+      "types": "./dist/auto.d.ts",
       "import": "./dist/auto.js",
       "require": "./dist/auto.cjs"
     }
   },
+
   "files": [
     "dist"
   ],
+
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && cp src/*.d.ts dist/",
     "dev": "tsup --watch",
     "prepublishOnly": "npm run build"
   },
+
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.3.3"
